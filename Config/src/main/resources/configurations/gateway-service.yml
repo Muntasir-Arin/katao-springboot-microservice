@@ -11,4 +11,44 @@ spring:
           uri: lb:http://USER-SERVICE
           predicates:
             - Path=/api/v1/users/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: userServiceCB
+                fallbackUri: forward:/fallback
 
+        - id: salon-service
+          uri: lb:http://SALON-SERVICE
+          predicates:
+            - Path=/api/v1/salons
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: salonServiceCB
+                fallbackUri: forward:/fallback
+
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      userServiceCB:
+        slidingWindowSize: 10                   # Number of calls to consider for metrics
+        permittedNumberOfCallsInHalfOpenState: 5  # Calls allowed in half-open state before full close
+        waitDurationInOpenState: 5s              # Time to wait before attempting to close circuit
+        failureRateThreshold: 50                # Percentage of failures before opening the circuit
+      salonServiceCB:
+        slidingWindowSize: 10
+        permittedNumberOfCallsInHalfOpenState: 5
+        waitDurationInOpenState: 5s
+        failureRateThreshold: 50

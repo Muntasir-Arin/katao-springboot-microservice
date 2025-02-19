@@ -24,13 +24,16 @@ public class Salon {
     @Column(nullable = false)
     private String location;
 
+    @Builder.Default
     @Column(nullable = false)
     private Boolean isFree = true;
 
+    @Builder.Default
     private Integer queueSize = 0;
 
     @Column(nullable = false)
     private UUID ownerId;
 
+    @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
 }
