@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e6a3f6-57a1-474e-84dc-9cd1c9568313" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Shopping Cart Backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/user-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/user-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/UserServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/config/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/model/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/katao/userservice/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/katao/userservice/UserServiceApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d1e6a3f6-57a1-474e-84dc-9cd1c9568313" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,8 +70,10 @@
     "Gradle.user-service [:com.katao.userservice.UserServiceApplication.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "vcs.log"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -178,5 +155,16 @@
       <updated>1739950787581</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
